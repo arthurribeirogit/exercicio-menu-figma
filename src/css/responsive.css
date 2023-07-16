@@ -1,0 +1,23 @@
+@media(max-width:768px){
+    .cabecalho {
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu a {
+        padding: 15px;
+    }
+}

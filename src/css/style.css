@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Public+Sans:wght@400;800&display=swap');
+
+.cabecalho {
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    width: 100px;
+    align-items: center;
+}
+.logo h1 {
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.menu a {
+    padding: 10px;
+    margin: 10px;
+}
+
+.texto-destaque {
+    background-color: #5BC241;
+    color: white;
+}
+
+.texto-destaque.botao {
+    border-radius: 10px;
+}
