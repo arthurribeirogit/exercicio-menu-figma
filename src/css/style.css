@@ -24,13 +24,16 @@
 .menu a {
     padding: 10px;
     margin: 10px;
+    transition: 0.3s ease-in-out;
 }
 
-.texto-destaque {
+.menu a:hover {
     background-color: #5BC241;
     color: white;
+    
 }
 
-.texto-destaque.botao {
+.button {
     border-radius: 10px;
+    background-color: #5BC241;
 }
